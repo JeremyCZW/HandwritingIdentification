@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/name"
+    tools:context="com.cnsoft.handwriting.MainActivity" >
+	<Button
+    android:id="@+id/btn_mainClear"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/sz_selector"
+    android:layout_margin="10dp" />
+<Button 
+    android:id="@+id/btn_sm"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/sm_selector"
+    android:layout_alignParentBottom="true"
+    android:layout_margin="10dp"
+    android:layout_alignLeft="@id/btn_back"/>
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:layout_marginBottom="120dp"
+	    android:layout_alignParentBottom="true"
+	    android:gravity="center">
+	<Button
+    android:id="@+id/btn_mainLogin"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dr_selector"
+    android:layout_marginRight="40dp" />
+	<Button
+    android:id="@+id/btn_mainRegist"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/zc_selector"/>
+	</LinearLayout>
+
+
+</RelativeLayout>

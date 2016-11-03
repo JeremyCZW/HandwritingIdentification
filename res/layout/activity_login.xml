@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+  	<Button
+  	    android:id="@+id/iv_loginBack"
+  	    android:layout_width="wrap_content"
+  	    android:layout_height="wrap_content"
+  	    android:layout_margin="16dp"
+  	    android:background="@drawable/back_selector" />
+		 <TextView
+            android:id="@+id/tv_loginHint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_loginBack"
+            android:text="当前字: 好"
+            android:layout_alignLeft="@id/iv_loginBack"
+            android:layout_marginTop="8dp"
+            android:textColor="#61493D"
+            android:textSize="@dimen/txtsize_title" />
+        <TextView
+            android:id="@+id/tv_loginProcess"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/iv_loginBack"
+            android:text="进度: 1/6"
+            android:layout_below="@id/tv_loginHint"
+            android:textColor="#61493D"
+            android:layout_marginTop="5dp"
+            android:textSize="@dimen/txtsize_subhead" />
+		 <com.cnsoft.view.LoginView
+            android:id="@+id/v_loginDraw"
+            android:layout_width="256dp"
+            android:layout_height="256dp"
+            android:layout_centerInParent="true"
+            android:focusable="true"
+            android:background="@drawable/view_shape"
+            android:focusableInTouchMode="true" />
+        <Button
+            android:id="@+id/btn_loginClearOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rewrite_selector"
+            android:layout_below="@id/v_loginDraw"
+            android:layout_margin="8dp"
+            android:layout_alignRight="@+id/v_loginDraw"
+            />
+        <LinearLayout 
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_margin="16dp"
+            android:layout_alignParentBottom="true">
+            <Button
+                android:id="@+id/btn_loginClear"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/next_selector"/>
+            <View
+                android:layout_width="16dp"
+                android:layout_height="1dp"/>
+            <Button
+                android:id="@+id/btn_loginOk"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/finish_dr_selector"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_totalClear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/btn_loginClearOne"
+            android:layout_alignBottom="@+id/btn_loginClearOne"
+            android:layout_alignLeft="@+id/v_loginDraw"
+            android:layout_margin="8dp"
+            android:background="@drawable/qc_selector" />
+            
+</RelativeLayout>

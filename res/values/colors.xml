@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="red_title">#FF4342</color>
+    <color name="white">#ffffff</color>
+    <color name="awhite">#BBffffff</color>
+    <color name="green">#06AB09</color>
+    <color name="black">#000000</color>
+    <color name="content_black">#424242</color>
+    <color name="item_gray">#808080</color>
+    <color name="txt_black">#232323</color>
+    <color name="txt_gray">#565656</color>
+    <color name="txt_light_gray">#898989</color>
+    <color name="txt_light_orange">#ff8c1a</color>
+    <color name="txt_at_blue">#507daf</color>
+    <color name="orange">#ff8200</color>
+    <color name="orange_dark">#d46303</color>
+    <color name="orange_alpha">#66ff8200</color>
+    <color name="divider_gray">#d7d7d7</color>
+    <color name="bg_agray">#49dddddd</color>
+    <color name="bg_gray_tip">#9A9A9A</color>
+    <color name="bg_gray">#EFEFEF</color>
+    <color name="bg_gray_light">#f6f6f6</color>
+    <color name="bg_gray_pressed">#e8e8e8</color>
+    <color name="red">#ff0000</color>
+    <color name="pull_refresh_textview">#000000</color>
+    <color name="gold">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="white_light">#FAFAFA</color>
+    <color name="divider_content">#F0f0f2</color>
+    <color name="txt_blue_light">#6687F2</color>
+    <color name="bg_gray_light_">#FAF7FA</color>
+
+</resources>
